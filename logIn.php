@@ -4,6 +4,7 @@ require_once'connection_index.php';
 if(isset($_POST['login']))
 {
 // Posted Values  
+// jathu 2019e049
 $s_l_id=$_POST['id'];
 $pass=$_POST['p'];
 // Call the store procedure for insertion
